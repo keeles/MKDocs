@@ -1,3 +1,41 @@
-site_name: MK Docs
+site_name: My Docs Test for Comm
 theme:
   name: material
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - toc.intergrate
+  - nativation.top
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - content.code.annotation
+  - content.code.copy
+  language: en
+  palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: purple
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/kurumicake
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/kurumicake"  target="_blank" rel="noopener">Christy Wan</a>
