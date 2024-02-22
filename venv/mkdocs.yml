@@ -1,19 +1,18 @@
-site_name: My Docs Test for Comm
+site_name: Embedded Javascript
 theme:
   name: material
   features:
-  - navigation.tabs
-  - navigation.sections
-  - toc.intergrate
-  - nativation.top
-  - search.suggest
-  - search.highlight
-  - content.tabs.link
-  - content.code.annotation
-  - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+    - toc.intergrate
+    - nativation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
   language: en
   palette:
-
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
