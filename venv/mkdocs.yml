@@ -1,18 +1,18 @@
-site_name: Embedded Javascript
+site_name: EJS
 theme:
   name: material
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.intergrate
-    - nativation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+  - navigation.sections
+  - toc.intergrate
+  - nativation.top
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - content.code.annotation
+  - content.code.copy
   language: en
   palette:
+
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -34,7 +34,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/kurumicake
+      link: https://github.com/keeles
 
 copyright: |
-  &copy; 2023 <a href="https://github.com/kurumicake"  target="_blank" rel="noopener">Christy Wan</a>
+  &copy; 2024 <a href="https://github.com/kurumicake"  target="_blank" rel="noopener">Christy Wan</a><a href="https://github.com/alesstongwei"  target="_blank" rel="noopener">Aless Wei</a><a href="https://github.com/keeles"  target="_blank" rel="noopener">Kyle Eeles</a>
