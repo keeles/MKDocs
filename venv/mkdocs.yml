@@ -1,15 +1,24 @@
 site_name: EJS
+nav:
+  - Home: "index.md"
+  - Getting Started: "Getting Started/getStartedA.md"
+  - Features: "Features/Features-c.md"
+  - Express: "Express/expressK.md"
+  - Usage: "Usage/usagek.md"
+  - Troubleshooting: "troubleshooting/troubleshooting.md"
+  - glossary: "glossary/glossary.md"
+  
 theme:
   name: material
   features:
-  - navigation.sections
-  - toc.intergrate
-  - nativation.top
-  - search.suggest
-  - search.highlight
-  - content.tabs.link
-  - content.code.annotation
-  - content.code.copy
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
   language: en
   palette:
 
