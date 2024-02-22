@@ -2,10 +2,9 @@ site_name: Embedded Javascript
 theme:
   name: material
   features:
-    - navigation.tabs
     - navigation.sections
-    - toc.intergrate
-    - nativation.top
+    - toc.integrate
+    - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
