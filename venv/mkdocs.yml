@@ -7,7 +7,7 @@ nav:
   - Usage: "Usage/usageK.md"
   - Troubleshooting: "troubleshooting/troubleshooting.md"
   - glossary: "glossary/glossary.md"
-  
+
 theme:
   name: material
   features:
@@ -20,16 +20,7 @@ theme:
     - content.code.annotation
     - content.code.copy
   language: en
-  markdown_extensions:
-    - pymdownx.highlight:
-        anchor_linenums: true
-        line_spans: __span
-        pygments_lang_class: true
-    - pymdownx.inlinehilite
-    - pymdownx.snippets
-    - pymdownx.superfences
   palette:
-
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
