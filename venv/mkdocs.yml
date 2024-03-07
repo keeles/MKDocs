@@ -7,7 +7,10 @@ nav:
   - Usage: "Usage/usageK.md"
   - Troubleshooting: "troubleshooting/troubleshooting.md"
   - glossary: "glossary/glossary.md"
-
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
 theme:
   name: material
   features:
