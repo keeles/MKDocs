@@ -2,15 +2,11 @@
 
 Welcome to the fascinating world of EJS (Embedded JavaScript Templates), where the dynamic power of JavaScript meets the simplicity of HTML templates! Whether you're crafting a small project or architecting a large application, EJS offers a flexible and intuitive way to generate HTML markup with plain JavaScript.
 
-EJS is all about efficiency and ease. It lets you insert JavaScript values into your HTML and use JavaScript to iterate over data, conditionally display content, and include reusable templates. But what truly makes EJS shine is its customizable nature, brought to life through a wide array of options.
+EJS is all about efficiency and ease of use. It lets you insert JavaScript values into your HTML and use JavaScript to iterate over data, conditionally display content, and include reusable templates. But what truly makes EJS shine is its customizable nature, brought to life through a wide array of options.
 
-For full documentation visit [ejs.co](https://ejs.co/).
+It is commonly used with an Express server, something we will cover thoroughly in this documentation as we highly recommend this approach for first time users.
 
-- EJS is a templating language that allows you to dynamically render the HTML on your website with Javascript. 
-
-- It is commonly used with an Express server, something we will cover thoroughly in this documentation as we highly recommend this approach for first time users.
-
-- This documentation will walk you through the [syntax](../Tags/tags-c.md), [features](../Features/Features-c.md), [troubleshooting](../troubleshooting/troubleshooting.md), and example of use with an [Express server](../Express/expressK.md).
+- This documentation will walk you through the [syntax](./Tags/tags.md), [features](./Features/Features.md), [troubleshooting](./troubleshooting/troubleshooting.md), and example of use with an [Express server](./Express/express.md).
 
 - If you are new to EJS be sure to read the prerequisite knowledge and software requirements in the section below. 
 
