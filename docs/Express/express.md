@@ -28,7 +28,7 @@ console.log(`Example app listening on port ${port}`)
 ```
 
 - We recommend using nodemon to run your express server, but it is not necessary
-    - [Nodemon](https://www.npmjs.com/package/nodemon)
+    - [Nodemon Documentation](https://www.npmjs.com/package/nodemon)
 - Start your server to test everything is working correctly (Node <filename>.js or Nodemon <filename>.js)
 ![Server Listening](../AssetsK/ExpressServerRunning.jpg)
 
@@ -182,4 +182,7 @@ app.listen(port, () => {
 
 ![Rendering User and Friends Variables](../AssetsK/MultipleVariables.jpg)
 
-11\. Congratulations! You have taken the first steps towards building a dynamically rendered web app! 
+!!! success
+    :octicons-heart-fill-24:{ .heart } Congratulations, you just built your first dynamic web app with Express and EJS!
+
+    Great job 🤗.
