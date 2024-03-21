@@ -10,7 +10,8 @@
 
 ## Intended Users
 
-- This documentation is targeted towards the following users:
+This documentation is targeted towards the following users:
+
 - Beginner to intermediate web developers
 - Individuals who are interested in creating their own web project
 
@@ -36,7 +37,6 @@ Before we proceed, users should have the following installed on their machines:
 - Getting Started (Installation for all required software)
 - EJS tags, include, general information
 - Usage with Express.js
-- Usage without Express.js
 - Troubleshooting
 - Glossary
 
