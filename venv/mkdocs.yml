@@ -1,11 +1,10 @@
 site_name: EJS
 nav:
   - Home: "index.md"
-  - Getting Started: "Getting Started/getStartedA.md"
-  - Features: "Features/Features-c.md"
-  - Tags: "Tags/tags-c.md"
-  - Express: "Express/expressK.md"
-  - Usage: "Usage/usageK.md"
+  - Getting Started: "Getting Started/getStarted.md"
+  - Features: "Features/Features.md"
+  - Tags: "Tags/tags.md"
+  - Express: "Express/express.md"
   - Troubleshooting: "troubleshooting/troubleshooting.md"
   - glossary: "glossary/glossary.md"
 markdown_extensions:
