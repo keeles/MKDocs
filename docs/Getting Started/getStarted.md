@@ -65,7 +65,7 @@ views/index.ejs:
 
 !!! info
 
-    > JavaScript: (assuming you have your express.js set up, we have also set up a more in-depth instruction [here](../Express/express.md/)
+    > JavaScript: assuming you have your express.js set up, we have also set up a more in-depth instruction [here](../Express/express.md/)
 
 ```js hl_lines="2"
 app.get("/", (req, res) => {
