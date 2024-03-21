@@ -62,15 +62,54 @@ In EJS, the `include` function streamlines web development by allowing for the i
 </ul>
 ```
 
-By leveraging these features, you can create powerful, flexible, and secure templates with EJS. Whether you're building a small project or a large web application, EJS offers the tools needed to efficiently generate dynamic HTML content.
+## CLI
+EJS's command-line interface (CLI) brings the power of EJS templating to the terminal, providing a suite of options for rendering files directly from the command line. This feature is especially useful for batch processing, testing, or integrating EJS into scripts and other development workflows. The CLI supports a range of options that mirror those available in the JavaScript API, making it a versatile tool for developers familiar with EJS.
 
-## Conclusion
+### cache
+The cache option enables the caching of compiled functions, significantly speeding up the rendering process for templates that are used frequently. This option requires the use of the filename parameter to uniquely identify each template in the cache, ensuring that templates are correctly retrieved from cache when needed.
 
-By the end of this section, you will have successfully learned the following:
-
-- :octicons-heart-fill-24:{ .heart } 
-- :octicons-heart-fill-24:{ .heart } 
-- :octicons-heart-fill-24:{ .heart } 
+#### -o / --output-file FILE 
+The `-o` or `--output-file` argument specifies a file to which the rendered output should be written. By default, EJS renders to stdout, which is suitable for viewing output directly in the terminal or piping to other commands. However, when rendering files as part of a build process or for static site generation, directing output to a specific file is often necessary.
 
 
-Great job 🤗.
+#### -f / --data-file FILE
+The `-f` or `--data-file` option allows you to specify a JSON-formatted file as the source of data for rendering the template. This feature is particularly useful when you have predefined data structures or are utilizing data from an external source, enabling dynamic content generation based on the contents of the file.
+
+#### -i / --data-input STRING
+Similar to the `-f` option, `-i` or `--data-input` accepts a JSON-formatted and URI-encoded string as input data for rendering. This option is ideal for passing small amounts of data directly through the command line without the need for an external file.
+
+#### -m / --delimiter CHARACTER
+The `-m` or `--delimiter` argument allows you to customize the character used for opening and closing tags within your EJS templates. By default, EJS uses % as the delimiter, but this can be changed to any character that suits your project's needs, providing flexibility in template syntax.
+
+#### -p / --open-delimiter CHARACTER
+With `-p` or `--open-delimiter`, you can define a custom character to replace the standard left angle bracket (<) for opening EJS tags. This option is useful when integrating EJS templates with other languages or systems where the default syntax may cause conflicts.
+
+#### -c / --close-delimiter CHARACTER
+The `-c` or `--close-delimiter` option serves a similar purpose to -p, but for the closing tag, allowing you to specify a custom character to replace the right angle bracket (>) for closing EJS tags. This customization ensures compatibility across different environments and syntax requirements.
+
+#### -s / --strict
+Enabling the `-s` or `--strict` mode forces the generated functions to run in JavaScript's strict mode. This mode imposes stricter parsing and error handling on your code, helping to prevent common coding bloopers and making it easier to write "secure" JavaScript.
+
+#### -n / --no-with
+The `-n` or `--no-with` option disables the use of JavaScript's with statement in the template's scope. This leads to better performance and more predictable scope resolution, with variables explicitly taken from the locals object. This option implicitly enables strict mode (--strict).
+
+#### -l / --locals-name
+With `-l` or `--locals-name`, you can specify the name of the object that stores local variables in templates when not using the with statement. This option provides clarity and control over how data is accessed within your templates, improving readability and maintainability.
+
+#### -w / --rm-whitespace
+The `-w` or `--rm-whitespace` argument instructs EJS to remove all safe-to-remove whitespace from the rendered output, including leading and trailing whitespace around template tags. This can lead to smaller file sizes and cleaner output, especially for production environments.
+
+#### -d / --debug
+Using `-d` or `--debug` outputs the generated function body to the console. This feature is invaluable for debugging complex templates, as it allows developers to inspect the compiled JavaScript produced by EJS from their templates.
+
+#### -h / --help
+The `-h` or `--help` option displays a help message summarizing the available commands and options in the EJS CLI. This is a quick way to get an overview of the CLI's capabilities or to remind yourself of the syntax for less frequently used options.
+
+#### -V/v / --version
+Finally, `-V` or `--version` displays the currently installed version of EJS. This can be useful for troubleshooting, ensuring compatibility, or simply checking if an update is available.
+
+
+!!! success
+    :octicons-heart-fill-24:{ .heart } By leveraging these features, you can create powerful, flexible, and secure templates with EJS. Whether you're building a small project or a large web application, EJS offers the tools needed to efficiently generate dynamic HTML content.
+
+    Great job 🤗.
