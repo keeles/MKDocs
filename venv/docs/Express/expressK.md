@@ -182,4 +182,7 @@ app.listen(port, () => {
 
 ![Rendering User and Friends Variables](../AssetsK/MultipleVariables.jpg)
 
-11\. Congratulations! You have taken the first steps towards building a dynamically rendered web app! 
+!!! success
+    :octicons-heart-fill-24:{ .heart } By leveraging these features, you can create powerful, flexible, and secure templates with EJS. Whether you're building a small project or a large web application, EJS offers the tools needed to efficiently generate dynamic HTML content.
+
+    Great job 🤗.
