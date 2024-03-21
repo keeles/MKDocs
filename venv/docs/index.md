@@ -1,6 +1,12 @@
 # Introduction to EJS
 
-For full documentation visit [ejs.co](https://ejs.co/).
+- EJS is a templating language that allows you to dynamically render the HTML on your website with Javascript. 
+
+- It is commonly used with an Express server, something we will cover thoroughly in this documentation as we highly recommend this approach for first time users.
+
+- This documentation will walk you through the [syntax](../Tags/tags-c.md), [features](../Features/Features-c.md), [troubleshooting](../troubleshooting/troubleshooting.md), and example of use with an [Express server](../Express/expressK.md).
+
+- If you are new to EJS be sure to read the prerequisite knowledge and software requirements in the section below. 
 
 ## Intended Users
 
@@ -33,3 +39,5 @@ Before we proceed, users should have the following installed on their machines:
 - Usage without Express.js
 - Troubleshooting
 - Glossary
+
+For official documentation visit [ejs.co](https://ejs.co/).
