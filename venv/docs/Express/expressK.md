@@ -7,7 +7,7 @@
 - Basic understanding of HTTP
     - [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)
 
-### Introduction
+## Introduction
 - The purpose of this section is to introduce you to using EJS template engine with an express server to render dynamic HTML in the browser. We will set up a simple server with a home route and pass some data from our Javascript file to be displayed when the request is made. As mentioned above we are assuming that you already have a basic understanding of HTTP methods and how an express server is set up.
 
 ## Using EJS Templates in Express
