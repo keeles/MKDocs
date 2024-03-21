@@ -3,6 +3,7 @@ nav:
   - Home: "index.md"
   - Getting Started: "Getting Started/getStartedA.md"
   - Features: "Features/Features-c.md"
+  - Tags: "Tags/tags-c.md"
   - Express: "Express/expressK.md"
   - Usage: "Usage/usageK.md"
   - Troubleshooting: "troubleshooting/troubleshooting.md"
@@ -13,6 +14,8 @@ markdown_extensions:
       linenums: true
 theme:
   name: material
+  icon:
+    logo: material/library 
   features:
     - navigation.sections
     - toc.integrate
@@ -20,7 +23,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - content.code.annotation
+    - content.code.annotate
     - content.code.copy
   language: en
   palette:
@@ -28,7 +31,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: teal
-      accent: purple
+      accent: blue
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -49,3 +52,16 @@ extra:
 
 copyright: |
   &copy; 2024 <a href="https://github.com/kurumicake"  target="_blank" rel="noopener">Christy Wan</a><a href="https://github.com/alesstongwei"  target="_blank" rel="noopener">Aless Wei</a><a href="https://github.com/keeles"  target="_blank" rel="noopener">Kyle Eeles</a>
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
