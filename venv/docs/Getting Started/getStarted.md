@@ -39,6 +39,10 @@ EJS tags include:
 `-%>`: Trim-mode ('newline slurp') tag, trims following newline  
 `_%>`: ‘Whitespace Slurping’ ending tag, removes all whitespace after it
 
+!!! info
+
+    > for more in-depth information, please read [here](../Tags/tags.md/)
+
 ## Writing EJS Templates
 
 Since EJS templates are HTML files with embedded JavaScript code, creating a `.ejs` files is very similar to creating a HTML file.
@@ -59,7 +63,9 @@ views/index.ejs:
 </html>
 ```
 
-JavaScript: (assuming you have your express.js set up, we have also set up a more in-depth instruction [here](../Express/expressK.md/)
+!!! info
+
+    > JavaScript: (assuming you have your express.js set up, we have also set up a more in-depth instruction [here](../Express/express.md/)
 
 ```js hl_lines="2"
 app.get("/", (req, res) => {
